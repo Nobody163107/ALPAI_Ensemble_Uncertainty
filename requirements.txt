@@ -1,0 +1,12 @@
+# Python 3.10+ (tested on 3.13). On a laptop without an NVIDIA GPU, install the CPU build of
+# PyTorch first to skip the ~3 GB CUDA download:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+torch>=2.2
+torchvision>=0.17
+numpy>=1.26
+scikit-learn>=1.4
+pandas>=2.1
+matplotlib>=3.8
+streamlit>=1.50
+jupyter
+pytest
